@@ -83,22 +83,20 @@
             </tbody>
         </table-->
     </article>
-    <!--article class="extra advanced">
+    <article class="extra advanced">
         <table aria-label="Additional pin definitions.">
             <thead>
                 <th scope="col">Pin</th><th scope="col">Function</th><th scope="col">Notes</th>
             </thead>
-            <tbody class="power_pins">
-                <tr><td>3V3</td><td>System voltage out</td><td>3.3 V power supply from SY8088AAC regulator</td></tr>
-                <tr><td>5V</td><td>VBUS voltage in/out</td><td>Can be used to power external circuitry</td></tr>
-            </tbody>
             <tbody>
-                <tr><td>GPIO27</td><td>Addressable RGB LED</td><td></td></tr>
+                <tr><td>GPIO8</td><td>Addressable RGB LED</td><td></td></tr>
+                <tr><td>GPIO2, 8 & 9</td><td>Strapping pins</td><td>GPIO2, GPIO8, and GPIO9 double as strapping pins for the ESP32-C3 chip.<br/>
+                SPI Boot mode: GPIO2 high, GPIO8 any, GPIO9 high<br />
+                UART / USB Serial JTAG Download: GPIO2 high, GPIO8 high, GPIO9 low.
+            </td></tr>
             </tbody>
-            <tbody class="tpads">
-                <tr><td>J5</td><td></td><td>Used for measuring the current drawn by the ESP32-C5-WROOM-1(U) module.</td></tr></tbody>
-            </table>
-    </article-->
+        </table>
+    </article>
     <footer>
         <p>BETA! I don't have an ESP32 C3 of any description yet, so this pinout is gleaned from the user guide and schematics.</p>
         <p><a class="selected" title="Espressif ESP32 C3 DevKitC Pinout" href="https://esp32c3.pinout.xyz/">ESP32 C3 DevKitC Pinout</a>
