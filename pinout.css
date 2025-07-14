@@ -66,14 +66,14 @@ table {
     display: grid;
     align-items: left;
     position: relative;
-    top: 66px;
+    margin-top: 66px;
 }
 .labels.left {
     direction: rtl;
     display: grid;
     align-items: right;
     position: relative;
-    top: 66px;
+    margin-top: 66px;
 }
 .labels tr {
     counter-increment: pin;
