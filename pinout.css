@@ -66,14 +66,16 @@ table {
     display: grid;
     align-items: left;
     position: relative;
-    margin-top: 66px;
+    top: 66px;
+    height: fit-content;
 }
 .labels.left {
     direction: rtl;
     display: grid;
     align-items: right;
     position: relative;
-    margin-top: 66px;
+    top: 66px;
+    height: fit-content;
 }
 .labels tr {
     counter-increment: pin;
@@ -282,10 +284,10 @@ td, th {
 }
 .australian-view .labels.left {
     direction: ltr;
-    top: -66px;
+    top: 10px;
 }
 .australian-view .labels.right {
-    top: -66px;
+    top: 10px;
 }
 .australian-view .labels.left td {border-width:0 4px 0 0;}
 .australian-view .labels.right td {border-width:0 0 0 4px;}
